@@ -1,0 +1,19 @@
+{
+  "name": "street-control",
+  "version": "1.0.0",
+  "description": "Bot multifunción de Discord STREET CONTROL con panel web y eventos",
+  "main": "bot.js",
+  "scripts": {
+    "start": "node bot.js"
+  },
+  "engines": {
+    "node": ">=20"
+  },
+  "dependencies": {
+    "discord.js": "^14.22.1",
+    "dotenv": "^16.6.1",
+    "express": "^5.1.0",
+    "firebase-admin": "^13.5.0",
+    "node-cron": "^4.2.1"
+  }
+}
